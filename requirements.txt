@@ -1,7 +1,4 @@
-azure-storage-blob
 streamlit
+requests
+google.generativeai
 python-dotenv
-psycopg2-binary
-beautifulsoup4
-tqdm
-google-generativeai
