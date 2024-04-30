@@ -19,7 +19,7 @@ City: {city}
 """
 
 def generate_content(season, city):
-    response = model.predict(prompt_template.format(season=season, city=city))
+    response = model.generate_text(prompt=prompt_template.format(season=season, city=city))
     return response.result
 
 def stream_output(reply):
