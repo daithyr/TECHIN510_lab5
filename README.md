@@ -1,20 +1,22 @@
 # TECHIN510_lab5
 
-## Working with APIs
+## getting started 
 
-1. Get an API key
-    1. https://aistudio.google.com/app/apikey
-2. Create a streamlit app using Gemini API
-    1. Ideas from last quarter
-        1. Resume coach based on job description
-        2. Travel planner baed on requirements (location, 
-    2. Other ideas
-        1. Receipt reader for expense tracking (using vision API)
-3. References
-    1. Official Python SDK
-        1. https://ai.google.dev/gemini-api/docs/get-started/python
-        2. `pip install google-generativeai` 
-    2. https://docs.streamlit.io/develop/api-reference/chat
-    3. [https://ai.google.dev](https://ai.google.dev/)
-    4. https://ai.google.dev/gemini-api/docs/get-started/python#generate_text_from_image_and_text_inputs
-    5.
+
+```
+python -m venv venv
+source venv/bin/activate
+pip install -r requirement.txt
+
+streamlit run app.py
+```
+## webapp features
+This Streamlit app provides top 5 hiking trail recommendations based on the user's selected season and city, utilizing the Google Generative AI API.
+Features
+
+Get personalized hiking trail recommendations for a specified season and city
+View brief descriptions, difficulty levels, and notable features for each trail
+Enjoy a user-friendly interface with an appealing design
+
+## lesson learned
+I have a deeper understanding of how API works with the front end. 
