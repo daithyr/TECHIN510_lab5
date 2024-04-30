@@ -19,8 +19,8 @@ City: {city}
 """
 
 def generate_content(season, city):
-    response = model.generate_text(prompt=prompt_template.format(season=season, city=city))
-    return response.result
+    response = model.generate_content(prompt_template.format(season=season, city=city))
+    return response.text
 
 def stream_output(reply):
     for word in reply.split(" "):
