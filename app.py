@@ -104,8 +104,8 @@ if st.button("Get Hiking Trails Recommendations", use_container_width=True):
 # with c2:
 #     city = st.text_input("Enter the city")
 
-reply = None
+# reply = None
 
-if st.button("Get Hiking Trails Recommendations", use_container_width=True):
-    reply = generate_content(season, city)
-    st.write(reply)
+# if st.button("Get Hiking Trails Recommendations", use_container_width=True):
+#     reply = generate_content(season, city)
+#     st.write(reply)
