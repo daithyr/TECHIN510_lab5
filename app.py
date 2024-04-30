@@ -27,6 +27,29 @@ def stream_output(reply):
         yield word + " "
         time.sleep(0.02)
 
+st.set_page_config(page_title="Hiking Trails Recommendation", page_icon=":mountain:", layout="wide")
+
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background-color: #f0f2f6;
+    }
+    .stSelectbox {
+        background-color: #ffffff;
+    }
+    .stTextInput {
+        background-color: #ffffff;
+    }
+    .stButton {
+        background-color: #2ecc71;
+        color: #ffffff;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.title("Top 5 Hiking Trails Recommendation")
 
 c1, c2 = st.columns(2)
